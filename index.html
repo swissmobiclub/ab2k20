@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>App Builders 2020 - Lugano, Switzerland</title>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i,800,800i,900,900ii%7CPoppins:300,400,500,600,700" rel="stylesheet">
+	<!-- Font Family -->
+	<link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- Et Line -->
+	<link rel="stylesheet" href="css/et-line/et-line.css">
+	<!-- Carousel -->
+	<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<!-- Image Popup -->
+	<link href="css/gallery/magnific-popup.css" rel="stylesheet">
+	<!-- Navigation Style -->
+	<link rel="stylesheet" href="css/navigation-menu.css">
+	<!-- Theme Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<script src="https://js.tito.io/v1" async></script>
+
+	<!-- Vue.js -->
+	<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-firestore.js"></script>
+</head>
+<body>
+	
+	<!-- Navigation -->	
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<div class="navbar-brand"><a href="" class="logo"><img src="img/logo.png" alt="image"></a></div>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#speakers" class="dropdown-toggle">🎤 Speakers</a>
+					</li>				
+					<li class="dropdown full_menu shortcode active">
+						<a href="#tickets" class="dropdown-toggle">🎟 Tickets</a>
+					</li>
+					<li class="dropdown">
+						<a href="#sponsors" class="dropdown-toggle">🤝 Sponsors</a>
+					</li>
+					<li class="dropdown">
+						<a href="#schedule" class="dropdown-toggle">⏰ Schedule</a>
+					</li>
+					<li class="dropdown">
+						<a href="#information" class="dropdown-toggle">🛩 Information</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Slider -->	
+	<section class="mi-event mi-bg-image mi-full-height text-center">
+		<div class="mi-overlay-black"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="mi-slider-caption mi-fullwidth">
+					<div class="mi-caption-text">
+						<h1>App Builders 2020</h1>
+						<h3 style="color: white;">May 11-12, 2020 - Lugano, Switzerland</h3>
+						<tito-button class="mi-btn" event="swissmobiclub/app-builders-2020">Be the first to know when tickets go on sale!</tito-button>
+					</div>
+				</div>
+				<div class="mi-scroll-line">
+					<span>scroll down</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Icon Block -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="mi-heading">
+						<span class="mi-small-heading">About App Builders</span>
+						<h2>Just the most Swiss Mobile Developers Conference</h2>
+					</div>
+					<div class="mi-mb-40">
+						<p>One of the biggest European conferences about mobile technologies taking place in the heart of Europe. Get inspired by talks from the best brains of the mobile industry.</p>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="mi-para-block">
+							<h3>✍️ Learn & Grow</h3>
+							<p>The schedule is filled with interesting talks and relaxing breaks to allow you to network over amazing food and real italian coffee.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mi-para-block">
+							<h3>🤝 Grow your Network</h3>
+							<p>Grow your network in the mobile community by meeting people from all over the world who share your same passion.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>		
+
+	<!-- Block Fact -->
+	<section class="mi-white-text mi-bg-image mi-music-image" style="padding:50px;">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-xs-6 col-sm-4 col-md-4">
+					<div class="mi-fact">
+						<span class="counter">400</span>
+						<h4>Mobile Developer Experts</h4>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4">
+					<div class="mi-fact">
+						<span class="fact">You</span>
+						<h4>Could be here 📍</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Team -->	
+	<section class="mi-creative-caption" id="speakers">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="mi-heading">
+						<span class="mi-small-heading">Meet The Speakers and Storytellers</span>
+						<h2>Speakers</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Event Schedule -->
+	<section id="schedule">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="mi-heading">
+						<span class="mi-small-heading">Schedule</span>
+						<h2>Event Schedule</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h3>Monday 11th</h3>
+				</div>
+				<div class="col-md-6">
+					<h3>Tuesday 12th</h3>
+				</div>
+				<div class="col-md-12">
+					<em>Speaker announcements coming soon.</em>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Tickets -->
+	<section class="mi-pricing-table mi-section-bottom" id="tickets">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<div class="mi-short-heading mi-pt-0">
+						<h2>Register your interest</h2>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="mi-price-block mi-bg-image">
+						<h3>Super Early Bird</h3>
+						<span class="mi-big-no"></span>
+						<hr>
+						<ul class="mi-price-list">
+							<li><p>2 Days of Knowledge</p></li>
+							<li><p>Breakfast, Lunch and Snack Breaks</p></li>
+							<li><p>Official Conference Party</p></li>
+							<li><p>Actually Useful Swag</p></li>
+						</ul>
+						<hr>
+						<tito-button class="mi-btn mi-mt-20" style="background-color: gray;" event="swissmobiclub/app-builders-2020">On sale soon!</tito-button>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-12">
+					<div class="mi-short-heading mi-pt-0">
+						<span class="mi-small-heading">Code of Conduct</span>
+						<p>When your purchase a ticket, you also agree to our <a href="http://confcodeofconduct.com">Code of Conduct</a>. Read it carefully before purchasing a ticket.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Gallery -->
+	<section class="mi-works mi-section-bottom">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-md-12 mi-p-0">
+					<div class="mi-heading">
+						<span class="mi-small-heading">Previous Editions</span>
+						<h2>Photo Gallery</h2>
+					</div>
+					<div class="mi-items-list">
+						<div class="col-xs-6 col-sm-4 col-md-4 mi-single-item">
+							<a href="img/2018/chocolate-fountain.jpg" class="work-gallery mfp-image">
+								<figure class="mi-figure">
+									<img src="img/2018/chocolate-fountain.jpg" alt="img01">
+								</figure>
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-4 mi-single-item">
+							<a href="img/2018/speaker.jpg" class="work-gallery mfp-image">
+								<figure class="mi-figure">
+									<img src="img/2018/speaker.jpg" alt="img01">
+								</figure>
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-4 mi-single-item">
+							<a href="img/2018/speaker2.jpg" class="work-gallery mfp-image">
+								<figure class="mi-figure">
+									<img src="img/2018/speaker2.jpg" alt="img01">
+								</figure>
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-4 mi-single-item">
+							<a href="img/2018/speaker3.jpg" class="work-gallery mfp-image">
+								<figure class="mi-figure">
+									<img src="img/2018/speaker3.jpg" alt="img01">
+								</figure>
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-4 mi-single-item">
+							<a href="img/2018/speaker4.jpg" class="work-gallery mfp-image">
+								<figure class="mi-figure">
+									<img src="img/2018/speaker4.jpg" alt="img01">
+								</figure>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mi-grid" id="sponsors">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<div class="mi-heading">
+						<span class="mi-small-heading">Thanks to our</span>
+						<h2>Sponsors</h2>
+						<p>Are you sending your mobile team to App Builders and would like a group discount? Do you want to promote your product? Or do you simply want to let people know what cool things your team is up to? If so, get in touch with us and we'll find the best option for you.</p>
+					</div>
+					<div class="mi-items-list">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 mi-single-item">
+								<figure class="mi-figure" style="box-shadow: 0 8px 45px rgba(30,30,30,0.1);">
+									<img src="img/sponsors.jpg" alt="img01">
+								</figure><br>
+								<h3>Promote your company and product.</h3>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 mi-single-item">
+								<figure class="mi-figure" style="box-shadow: 0 8px 45px rgba(30,30,30,0.1);">
+									<img src="img/sponsors-2.jpg" alt="img01">
+								</figure><br>
+								<h3>Get cheapers tickets for your team.</h3>
+							</div>
+						</div>
+					</div>
+					<h4><a href="mailto:sponsorship@swissmobiclub.org"><span style="text-decoration: underline;">Get in touch</span></a>.</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mi-short-section" id="information">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mi-short-heading text-center">
+						<span class="mi-small-heading">More Information</span>
+						<h2>About the Conference</h2>
+						<p>The conference takes place at the <a href="https://goo.gl/maps/e5wUoMZbPLR2" target="_blank">Palazzo dei Congressi</a> in Lugano, one of the biggest congress centers in the area. It is right in the city center of Lugano and faces the lake and the beautiful Parco Ciani.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="mi-para-block">
+						<div class="mi-pr-40">
+							<span class="mi-big-text">Let's make your trip as smooth as possible.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="mi-left-icon mi-para-block">
+								<div class="mi-icon">
+									<figure class="mi-figure">
+										<img src="img/hotel.png" alt="image" width="64px">
+									</figure>
+								</div>
+								<div class="mi-content">
+									<h3>Accomodation</h3>
+									<p>Lugano has plenty of hotels with a view — we'll tell you our personal favourites after you book your ticket.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="mi-left-icon mi-para-block">
+								<div class="mi-icon">
+									<figure class="mi-figure">
+										<img src="img/airplane.png" alt="image" width="64px">
+									</figure>
+								</div>
+								<div class="mi-content">
+									<h3>Airports</h3>
+									<p>Fly to Zurich or Milan with optimal train connections.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="mi-left-icon mi-para-block">
+								<div class="mi-icon">
+									<figure class="mi-figure">
+										<img src="img/food.png" alt="image" width="64px">
+									</figure>
+								</div>
+								<div class="mi-content">
+									<h3>Food</h3>
+									<p>We will send the perfect list of bars and restaurant that you can't miss during your stay.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="mi-left-icon mi-para-block	">
+								<div class="mi-icon">
+									<figure class="mi-figure">
+										<img src="img/activities.png" alt="image" width="64px">
+									</figure>
+								</div>
+								<div class="mi-content">
+									<h3>Activities</h3>
+									<p>From hiking to simply walking through parks, we will send you the perfect city guide.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<div class="mi-heading">
+						<span class="mi-small-heading">Meet the Team Behind the Conference</span>
+						<h2>About Us</h2>
+					</div>
+					<div class="mi-mb-40">
+						<p>We are a small distributed team with a big passion to create conferences for the community. We organized more than 6 conferences for mobile developers since 2016 with a total of over 1000 attendees from all over the world. You can be sure that we will do our best to create the best experience possible.</p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-2">
+					<div class="mi-hove-figure">
+						<div class="mi-rect-block" style="padding: 20px;">
+							<a href="https://twitter.com/_Caro_N" target="_blank">
+								<figure class="mi-figure">
+									<img src="img/caro.jpg" alt="image">
+								</figure>
+							</a>
+						</div>
+						<div class="mi-caption" style="text-align: center; padding: 0px; margin-top: 20px;">
+							<h3>Carola Nitz</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-2">
+					<div class="mi-hove-figure">
+						<div class="mi-rect-block" style="padding: 20px;">
+							<a href="https://twitter.com/LucaScuderi" target="_blank">
+								<figure class="mi-figure">
+									<img src="https://pbs.twimg.com/profile_images/1109408395839320064/jy0OrD6D_400x400.jpg" alt="image">
+								</figure>
+							</a>
+						</div>
+						<div class="mi-caption" style="text-align: center; padding: 0px; margin-top: 20px;">
+							<h3>Luca Scuderi</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-2">
+					<div class="mi-hove-figure">
+						<div class="mi-rect-block" style="padding: 20px;">
+							<a href="https://twitter.com/flufffel" target="_blank">
+								<figure class="mi-figure">
+									<img src="img/sean.jpg" alt="image">
+								</figure>
+							</a>
+						</div>
+						<div class="mi-caption" style="text-align: center; padding: 0px; margin-top: 20px;">
+							<h3>Seán Labastille</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="mi_main_footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mi_footer_logo mi-mb-30">
+						<p>Found a bug in the website? Start contributing, it's <a href="https://github.com/swissmobiclub/ab2k19" target="_blank" style="color:white; text-decoration: underline;">open source</a>.</p>
+						<ul>
+							<li><a href="https://twitter.com/appbuilders_ch" class="border_round tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/appbuildersch/" class="border_round tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/swissmobiclub" class="border_round tran3s"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mi_subscribe_now mi-mb-30">
+						 <h3>Subscribe Now</h3>
+						 <p class="mi-mb-30" style="color: white;">We will only send emails regarding App Builders, no spam, ever.</p>
+						 <form action="https://appbuilders.us12.list-manage.com/subscribe/post?u=34f0052f561ed76a524b93bd1&amp;id=7a6a38f36b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+							<!-- <div class="form-group"> -->
+								<input type="text" value="" placeholder="you@amazing.com" name="EMAIL" id="newsletter-form-email" class="form-control form-control-lg" placeholder="Your Email Here" autocomplete="off">
+								<button type="submit" class="p_color_bg tran3s" style="text-decoration: none;border: none; outline:none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								<!-- <button type="submit" class="p_color_bg tran3s id="mc-embedded-subscribe">Subscribe</button> -->
+							<!-- </div> -->
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_34f0052f561ed76a524b93bd1_7a6a38f36b" tabindex="-1" value=""></div>
+						</form>
+						 <!-- <form action="#">
+							  <input type="text" placeholder="Email Address">
+							  <button class="p_color_bg tran3s"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+						 </form> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mi_footer-bottom">
+			<div class="container f-b">
+				   <div class="mi-f-b">Getin Business Templates © 2018 - Customized by App Builders.</div>
+			</div>
+		</div>
+	</footer>	
+	
+	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-101009948-1', 'auto');ga('send', 'pageview');</script>
+	<script src="js/jquery/jquery-2.1.3.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<!-- Jquery Plugins -->
+	<script src="js/plugins/plugin_js.js"></script>
+	<!-- Modal Popup -->
+	<script src="js/popup/modernizr.custom.js"></script>
+	<script src="js/popup/classie.js"></script>
+	<script src="js/popup/modalEffects.js"></script>
+	<!-- Counters -->
+	<script src="js/counter/jquery.waypoints.min.js"></script>
+	<script src="js/counter/jquery.counterup.min.js"></script>
+	<script src="js/counter/jquery.countdown.js"></script>		
+	<!-- Filter -->
+	<script src="js/filter/isotope.pkgd.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl-carousel/owl.carousel.js"></script>	
+	<!-- Image Popup -->
+	<script src="js/gallery/jquery.magnific-popup.min.js"></script>
+	<!-- Map API -->
+	<!-- Main Jquery -->
+	<script src="js/main.js"></script>
+</body>
+</html>
