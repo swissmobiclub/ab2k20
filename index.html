@@ -156,7 +156,31 @@
 					<div class="mi-heading">
 						<span class="mi-small-heading">Meet The Speakers and Storytellers</span>
 						<h2>Speakers</h2>
-						<div>Insterested in speaking? Apply to our Call for Papers through January 26.<br/> <a class="mi-btn" href="https://forms.gle/h2U5nU3rK4sUAWZ66">Call for Papers</a></div>
+						<div class="col-md-12">Insterested in speaking? Apply to our Call for Papers through January 26.</div>
+						<div class="col-md-12"><a class="mi-btn mi-mt-20" href="https://forms.gle/h2U5nU3rK4sUAWZ66">Call for Papers</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="row mi-mt-20">
+				<div class="col-sm-6 col-md-4" v-for="speaker in speakers">
+					<div class="mi-hove-figure">
+						<div class="mi-rect-block">
+							<figure class="mi-figure">
+								<a v-bind:href="'https://twitter.com/' + speaker.twitter" v-show="speaker.twitter != null" target="_blank"><img v-bind:src="speaker.picture" alt="image"></a>
+								<a v-bind:href="speaker.website" v-show="speaker.website != null" target="_blank"><img v-bind:src="speaker.picture" alt="image"></a>
+							</figure>
+							<div class="mi-rect-bg"></div>
+						</div>
+						<div class="mi-caption" style="max-height:167px;">
+							<h3 style="margin-bottom:10px;">{{ speaker.firstName }} {{ speaker.lastName }}</h3>
+							<p style="margin-bottom:10px;">{{ speaker.jobTitle }} <span v-if="speaker.company != ''">@ {{ speaker.company }}</span></p>
+							<ul class="mi-social-links" v-show="speaker.twitter != null">
+								<li><a v-bind:href="'https://twitter.com/' + speaker.twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+							<ul class="mi-social-links" v-show="speaker.website != null">
+								<li><a v-bind:href="speaker.website" target="_blank"><i class="fa fa-globe"></i></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -567,5 +591,6 @@
 	<!-- Map API -->
 	<!-- Main Jquery -->
 	<script src="js/main.js"></script>
+	<script src="js/speakers.js"></script>
 </body>
 </html>
