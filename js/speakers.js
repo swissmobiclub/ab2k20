@@ -11,6 +11,14 @@ new Vue({
                 'picture': 'https://raw.githubusercontent.com/steipete/speaking/master/steipete-avatar-2016%2B.jpg',
             },
             {
+                'firstName': 'Kaya',
+                'lastName': 'Thomas',
+                'jobTitle': 'iOS Developer',
+                'company': 'Calm',
+                'twitter': 'kthomas901',
+                'picture': 'https://appbuilders.ch/img/speakers/kaya.jpg',
+            },
+            {
                 'firstName': 'You',
                 'lastName': 'Could Be Here',
                 'jobTitle': 'Submit',
