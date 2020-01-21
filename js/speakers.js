@@ -19,6 +19,14 @@ new Vue({
                 'picture': 'https://appbuilders.ch/img/speakers/kaya.jpg',
             },
             {
+                'firstName': 'Lea',
+                'lastName': 'Marolt Sonnenschein',
+                'jobTitle': 'Graduate Student',
+                'company': 'Royal College of Art — Innovation Design Engineering',
+                'twitter': 'hellosunschein',
+                'picture': 'https://appbuilders.ch/img/speakers/lea.jpg',
+            },
+            {
                 'firstName': 'You',
                 'lastName': 'Could Be Here',
                 'jobTitle': 'Submit',

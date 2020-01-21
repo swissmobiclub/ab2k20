@@ -165,9 +165,9 @@
 				<div class="col-sm-6 col-md-4" v-for="speaker in speakers">
 					<div class="mi-hove-figure">
 						<div class="mi-rect-block">
-							<figure class="mi-figure">
+							<figure class="mi-figure" style="max-width: 275px; max-height: 275px;">
 								<a v-bind:href="'https://twitter.com/' + speaker.twitter" v-show="speaker.twitter != null" target="_blank"><img v-bind:src="speaker.picture" alt="image"></a>
-								<a v-bind:href="speaker.website" v-show="speaker.website != null" target="_blank"><img v-bind:src="speaker.picture" alt="image"></a>
+								<a v-bind:href="speaker.website" v-show="speaker.website != null" target="_blank"><img v-bind:src="speaker.picture"></a>
 							</figure>
 							<div class="mi-rect-bg"></div>
 						</div>
