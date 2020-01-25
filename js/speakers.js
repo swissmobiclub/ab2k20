@@ -27,6 +27,14 @@ new Vue({
                 'picture': 'https://appbuilders.ch/img/speakers/lea.jpg',
             },
             {
+                'firstName': 'Chris',
+                'lastName': 'Eidhof',
+                'jobTitle': 'Founder',
+                'company': 'objc.io',
+                'twitter': 'chriseidhof',
+                'picture': 'https://appbuilders.ch/img/speakers/chris.png',
+            },
+            {
                 'firstName': 'You',
                 'lastName': 'Could Be Here',
                 'jobTitle': 'Submit',
