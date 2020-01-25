@@ -8,7 +8,7 @@ new Vue({
                 'jobTitle': 'Founder',
                 'company': 'PSPDFKit',
                 'twitter': 'steipete',
-                'picture': 'https://raw.githubusercontent.com/steipete/speaking/master/steipete-avatar-2016%2B.jpg',
+                'picture': 'https://appbuilders.ch/img/speakers/peter.jpg',
             },
             {
                 'firstName': 'Kaya',
