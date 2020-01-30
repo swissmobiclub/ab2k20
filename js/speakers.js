@@ -8,7 +8,7 @@ new Vue({
                 'jobTitle': 'Founder',
                 'company': 'PSPDFKit',
                 'twitter': 'steipete',
-                'picture': 'https://appbuilders.ch/img/speakers/peter.jpg',
+                'picture': 'img/speakers/peter.jpg',
             },
             {
                 'firstName': 'Kaya',
@@ -16,7 +16,7 @@ new Vue({
                 'jobTitle': 'iOS Developer',
                 'company': 'Calm',
                 'twitter': 'kthomas901',
-                'picture': 'https://appbuilders.ch/img/speakers/kaya.jpg',
+                'picture': 'img/speakers/kaya.jpg',
             },
             {
                 'firstName': 'Lea',
@@ -24,7 +24,7 @@ new Vue({
                 'jobTitle': 'Graduate Student',
                 'company': 'Royal College of Art — Innovation Design Engineering',
                 'twitter': 'hellosunschein',
-                'picture': 'https://appbuilders.ch/img/speakers/lea.jpg',
+                'picture': 'img/speakers/lea.jpg',
             },
             {
                 'firstName': 'Chris',
@@ -32,7 +32,7 @@ new Vue({
                 'jobTitle': 'Founder',
                 'company': 'objc.io',
                 'twitter': 'chriseidhof',
-                'picture': 'https://appbuilders.ch/img/speakers/chris.png',
+                'picture': 'img/speakers/chris.png',
             },
             {
                 'firstName': 'You',
@@ -40,7 +40,7 @@ new Vue({
                 'jobTitle': 'Submit',
                 'company': 'Our CfP',
                 'website': 'https://forms.gle/h2U5nU3rK4sUAWZ66',
-                'picture': 'https://appbuilders.ch/img/logo.png',
+                'picture': 'img/logo.png',
             }]
     },
 });
