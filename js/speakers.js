@@ -35,6 +35,14 @@ new Vue({
                 'picture': 'img/speakers/chris.png',
             },
             {
+                'firstName': 'Jeff',
+                'lastName': 'Watkins',
+                'jobTitle': '',
+                'company': '',
+                'twitter': 'metrocat',
+                'picture': 'img/speakers/jeff.jpeg',
+            },
+            {
                 'firstName': 'You',
                 'lastName': 'Could Be Here',
                 'jobTitle': 'Submit',
