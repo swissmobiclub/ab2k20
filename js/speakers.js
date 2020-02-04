@@ -43,6 +43,14 @@ new Vue({
                 'picture': 'img/speakers/jeff.jpeg',
             },
             {
+                'firstName': 'Daniel',
+                'lastName': 'Steinberg',
+                'jobTitle': '',
+                'company': '',
+                'twitter': 'dimsumthinking',
+                'picture': 'img/speakers/daniel.png',
+            },
+            {
                 'firstName': 'You',
                 'lastName': 'Could Be Here',
                 'jobTitle': 'Submit',
