@@ -49,14 +49,6 @@ new Vue({
                 'company': '',
                 'twitter': 'dimsumthinking',
                 'picture': 'img/speakers/daniel.png',
-            },
-            {
-                'firstName': 'You',
-                'lastName': 'Could Be Here',
-                'jobTitle': 'Submit',
-                'company': 'Our CfP',
-                'website': 'https://forms.gle/h2U5nU3rK4sUAWZ66',
-                'picture': 'img/logo.png',
             }]
     },
 });
