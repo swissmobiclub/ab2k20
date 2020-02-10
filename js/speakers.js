@@ -49,6 +49,14 @@ new Vue({
                 'company': '',
                 'twitter': 'dimsumthinking',
                 'picture': 'img/speakers/daniel.png',
+            },
+            {
+                'firstName': 'Matthew',
+                'lastName': 'Bischoff',
+                'jobTitle': 'Partner',
+                'company': 'Lickability',
+                'twitter': 'mb',
+                'picture': 'img/speakers/matthew.jpg',
             }]
     },
 });
