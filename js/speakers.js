@@ -50,13 +50,25 @@ new Vue({
                 'twitter': 'dimsumthinking',
                 'picture': 'img/speakers/daniel.png',
             },
-            {
-                'firstName': 'Matthew',
-                'lastName': 'Bischoff',
-                'jobTitle': 'Partner',
-                'company': 'Lickability',
-                'twitter': 'mb',
-                'picture': 'img/speakers/matthew.jpg',
-            }]
+            
+            ],
+            speakers2: [
+                {
+                    'firstName': 'Matthew',
+                    'lastName': 'Bischoff',
+                    'jobTitle': 'Partner',
+                    'company': 'Lickability',
+                    'twitter': 'mb',
+                    'picture': 'img/speakers/matthew.jpg',
+                },
+                {
+                    'firstName': 'Sebastian',
+                    'lastName': 'Weidt',
+                    'jobTitle': 'Founder',
+                    'company': 'Universal Quantum',
+                    'website': 'https://universalquantum.com',
+                    'picture': 'img/speakers/sebastian.jpg',
+                }
+            ]
     },
 });
