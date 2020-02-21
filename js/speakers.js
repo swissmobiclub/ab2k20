@@ -68,6 +68,14 @@ new Vue({
                     'company': 'Universal Quantum',
                     'website': 'https://universalquantum.com',
                     'picture': 'img/speakers/sebastian.jpg',
+                },
+                {
+                    'firstName': 'Ben',
+                    'lastName': 'Sandofsky',
+                    'jobTitle':'Halide Developer',
+                    'company':'Lux Optics LLC',
+                    'twitter':'sandofsky',
+                    'picture':'img/speakers/ben.jpg'
                 }
             ]
     },
