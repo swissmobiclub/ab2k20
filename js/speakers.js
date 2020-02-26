@@ -76,6 +76,14 @@ new Vue({
                     'company':'Lux Optics LLC',
                     'twitter':'sandofsky',
                     'picture':'img/speakers/ben.jpg'
+                },
+                {
+                    'firstName': 'John',
+                    'lastName': 'Fox',
+                    'jobTitle':'iOS UI Engineer',
+                    'company':'Netflix',
+                    'twitter':'djembe',
+                    'picture':'img/speakers/john.jpg'
                 }
             ]
     },
