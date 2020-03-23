@@ -84,6 +84,12 @@ new Vue({
                     'company':'Netflix',
                     'twitter':'djembe',
                     'picture':'img/speakers/john.jpg'
+                },
+                {
+                    'firstName': 'Erica',
+                    'lastName': 'Sadun',
+                    'twitter': 'ericasadun',
+                    'picture': 'img/speakers/erica.png'
                 }
             ]
     },
