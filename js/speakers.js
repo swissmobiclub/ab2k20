@@ -89,7 +89,9 @@ new Vue({
                     'firstName': 'Erica',
                     'lastName': 'Sadun',
                     'twitter': 'ericasadun',
-                    'picture': 'img/speakers/erica.png'
+                    'picture': 'img/speakers/erica.png',
+                    'jobTitle': '',
+                    'company': '',
                 }
             ]
     },
