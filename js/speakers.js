@@ -11,14 +11,6 @@ new Vue({
                 'picture': 'img/speakers/peter.jpg',
             },
             {
-                'firstName': 'Kaya',
-                'lastName': 'Thomas',
-                'jobTitle': 'iOS Developer',
-                'company': 'Calm',
-                'twitter': 'kthomas901',
-                'picture': 'img/speakers/kaya.jpg',
-            },
-            {
                 'firstName': 'Lea',
                 'lastName': 'Marolt Sonnenschein',
                 'jobTitle': 'Graduate Student',
@@ -34,25 +26,27 @@ new Vue({
                 'twitter': 'chriseidhof',
                 'picture': 'img/speakers/chris.png',
             },
-            {
-                'firstName': 'Jeff',
-                'lastName': 'Watkins',
-                'jobTitle': '',
-                'company': '',
-                'twitter': 'metrocat',
-                'picture': 'img/speakers/jeff.jpeg',
-            },
-            {
-                'firstName': 'Daniel',
-                'lastName': 'Steinberg',
-                'jobTitle': '',
-                'company': '',
-                'twitter': 'dimsumthinking',
-                'picture': 'img/speakers/daniel.png',
-            },
+            
+            
             
             ],
             speakers2: [
+                {
+                    'firstName': 'Jeff',
+                    'lastName': 'Watkins',
+                    'jobTitle': '',
+                    'company': '',
+                    'twitter': 'metrocat',
+                    'picture': 'img/speakers/jeff.jpeg',
+                },
+                {
+                    'firstName': 'Daniel',
+                    'lastName': 'Steinberg',
+                    'jobTitle': '',
+                    'company': '',
+                    'twitter': 'dimsumthinking',
+                    'picture': 'img/speakers/daniel.png',
+                },
                 {
                     'firstName': 'Matthew',
                     'lastName': 'Bischoff',
