@@ -59,7 +59,7 @@ html {
 }
 section {
 	position: relative;
-	padding: 10px 0;
+	padding: 50px 0 25px;
 	overflow: hidden;
 	background-position:50% 50%;
 	background-size:cover;
@@ -2831,4 +2831,10 @@ li.active span.round-tabs.one, li.active span.round-tabs.two, li.active span.rou
 	font-size: 11px;
 	line-height: 27px;
 	padding: 0 10px 0;
+}
+
+#coc p {
+	text-align: justify;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
