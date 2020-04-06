@@ -26,9 +26,6 @@ new Vue({
                 'twitter': 'chriseidhof',
                 'picture': 'img/speakers/chris.png',
             },
-            
-            
-            
             ],
             speakers2: [
                 {
@@ -84,6 +81,14 @@ new Vue({
                     'lastName': 'Sadun',
                     'twitter': 'ericasadun',
                     'picture': 'img/speakers/erica.png',
+                    'jobTitle': '',
+                    'company': '',
+                },
+                {
+                    'firstName': 'Vincent',
+                    'lastName': 'Pradeilles',
+                    'twitter': 'v_pradeilles',
+                    'picture': 'img/speakers/vincent.jpg',
                     'jobTitle': '',
                     'company': '',
                 }
