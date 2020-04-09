@@ -91,6 +91,14 @@ new Vue({
                     'picture': 'img/speakers/vincent.jpg',
                     'jobTitle': '',
                     'company': '',
+                },
+                {
+                    'firstName': 'Rodrigo',
+                    'lastName': 'Arsuaga',
+                    'twitter': 'RodrigoArsuaga',
+                    'picture': 'img/speakers/rodrigo.jpeg',
+                    'jobTitle': 'iOS Engineer & Team Lead',
+                    'company': 'Xmartlabs',
                 }
             ]
     },
