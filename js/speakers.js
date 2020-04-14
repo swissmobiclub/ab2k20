@@ -99,6 +99,14 @@ new Vue({
                     'picture': 'img/speakers/rodrigo.jpeg',
                     'jobTitle': 'iOS Engineer & Team Lead',
                     'company': 'Xmartlabs',
+                },
+                {
+                    'firstName': 'Shai',
+                    'lastName': 'Mishali',
+                    'twitter': 'freak4pc',
+                    'picture': 'img/speakers/shai.jpg',
+                    'jobTitle': 'iOS Tech Lead',
+                    'company': 'Gett',
                 }
             ]
     },
