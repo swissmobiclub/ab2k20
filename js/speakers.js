@@ -115,6 +115,14 @@ new Vue({
                     'picture': 'img/speakers/paris_buttfield-addison.jpeg',
                     'jobTitle': '',
                     'company': '',
+                },
+                {
+                    'firstName': 'Marek',
+                    'lastName': 'Fořt',
+                    'twitter': 'marekfort',
+                    'picture': 'img/speakers/marek.jpg',
+                    'jobTitle': 'iOS programmer',
+                    'company': 'ackee',
                 }
             ]
     },
