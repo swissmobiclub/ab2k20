@@ -107,6 +107,14 @@ new Vue({
                     'picture': 'img/speakers/shai.jpg',
                     'jobTitle': 'iOS Tech Lead',
                     'company': 'Gett',
+                },
+                {
+                    'firstName': 'Paris',
+                    'lastName': 'Buttfield-Addison',
+                    'twitter': 'parisba',
+                    'picture': 'img/speakers/paris_buttfield-addison.jpeg',
+                    'jobTitle': '',
+                    'company': '',
                 }
             ]
     },
