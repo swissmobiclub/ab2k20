@@ -1774,10 +1774,11 @@ pre code {
 }
 .mi-timeline-item{
 	padding-left: 40px;
+	padding-bottom: 25px; 
 	position: relative;
 }
 .mi-timeline-info {
-	font-size: 12px;
+	font-size: 14px;
 	padding-bottom: 5px; 
 	padding-top: 5px;
 }
