@@ -13,8 +13,8 @@ new Vue({
             {
                 'firstName': 'Lea',
                 'lastName': 'Marolt Sonnenschein',
-                'jobTitle': 'Graduate Student',
-                'company': 'Royal College of Art — Innovation Design Engineering',
+                'jobTitle': 'Senior iOS Engineer',
+                'company': 'Blub Blub',
                 'twitter': 'hellosunschein',
                 'picture': 'img/speakers/lea.jpg',
             },
