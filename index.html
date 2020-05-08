@@ -196,11 +196,34 @@
 							<div class="mi-timeline-info"><strong>📢 11:45</strong></div>
 							<div class="mi-timeline-marker"><strong>Property Wrappers or How Swift decided to become Java</strong></div>
 							<div class="mi-timeline-para">Vincent Pradeilles</div>
+							<hr/>
+							<div>
+								<p>Swift 5.1 brought a new construct to the language: Property Wrappers. SwiftUI, for instance, relies heavily on it to provide its system of data-binding through annotations like <code>@State</code>, <code>@EnvironmentObjects</code>, etc.</p>
+<p>Unlike other language improvements, Codable for instance, Apple hasn’t restricted the use of this new feature to its own frameworks: any codebase is free to leverage it to implement custom property attributes that will suit its own specific needs.</p>
+<p></p>While this is a great opportunity to factorise common behaviours throughout a project, one can still wonder: won’t it hurt code readability and predictability on the long run? Keeping code short is good, but if it’s achieved through a collection of arcane annotations, it might end up defying the original intent.</p>
+<p>In this talk, I want to introduce what Property Wrappers are, give some example of how they can be leveraged, and try to provide some guidelines on when we they should or shouldn’t be use.</p>
+							</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>📢 12:30</strong></div>
 							<div class="mi-timeline-marker"><strong>Getting Started with Combine</strong></div>
 							<div class="mi-timeline-para">Shai Mishali</div>
+							<hr/>
+							<div>
+								<p>In the last WWDC, Apple has finally released it's very own framework for declarative processing of values over time, making the skill of Reactive Programming a must for your toolset. But what does it actually mean, and why is it at all helpful for you as a developer? What are the tools and constructs Apple provide for us as developers?</p>
+								<p>In this talk you'll learn:</p>
+								<ul class="list-group">
+								<li class="list-group-item"> What _is_ Reactive Programming?</li>
+								<li class="list-group-item"> How Combine differs from other Reactive Declarative frameworks</li>
+								<li class="list-group-item"> Basic building blocks: Publisher, Subscriber, Subscription, Subjects and more</li>
+								<li class="list-group-item"> The anatomy and lifecycle of a Combine event</li>
+								<li class="list-group-item"> Combine vocabulary: Operators - the 'words' that make up your Combine chain</li>
+								<li class="list-group-item"> Combine & Foundation: Apple-provided APIs to ease your day-to-day development with Combine and existing Swift APIs</li>
+								<li class="list-group-item"> Combine's role in SwiftUI</li>
+								<li class="list-group-item"> What is Backpressure?</li>
+								<li class="list-group-item"> And much more ...</li>
+							</ul>
+							</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>🍝 13:00</strong></div>
@@ -216,6 +239,8 @@
 							<div class="mi-timeline-info">📢 15:15</div>
 							<div class="mi-timeline-marker"><strong>Building Swift CLIs</strong></div>
 							<div class="mi-timeline-para">Marek Fořt</div>
+							<hr/>
+							<div>Swift is mostly used for iOS apps but there are a lot of other areas for which it is a good fit. One of these is Swift CLIs. Let’s see how you can build a command line interface quickly, while ensuring it is still maintainable and easy to use. One of the key parts will be leveraging  the new ArgumentParser library by Apple and Swift Package Manager libraries, and so we will have a deeper look of how SPM works under the hood.</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>☕️ 15:45</strong></div>
@@ -226,6 +251,9 @@
 							<div class="mi-timeline-info">📢 16:30</div>
 							<div class="mi-timeline-marker"><strong>Apps for All: Making Software Accessible</strong></div>
 							<div class="mi-timeline-para">Matthew Bischoff</div>
+							<hr/>
+							<div>What does it take to build software that’s truly usable for as many people as possible? This talk will focus on improving the accessibility of the apps we build. Drawing on examples from the fields of architecture and design, as well as Matt’s experience, it will explore the how and why of iOS accessibility in the broader contexts of ability and inclusion. Attendees will learn how to audit their application for accessibility and get started making changes that will open it up to new groups of customers. </div>
+							
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>⚡️ 17:15</strong></div>
@@ -236,6 +264,9 @@
 							<div class="mi-timeline-info"><strong>📢 18:00</strong></div>
 							<div class="mi-timeline-marker"><strong>Accessibility for iOS: doing well by doing good</strong></div>
 							<div class="mi-timeline-para">John Fox</div>
+							<hr/>
+							<div><p>If you're serious about your iOS app, you need to be serious about making your app's user experience a pleasant and efficient one for people who depend on assistive technologies such as VoiceOver. Apple's tools and frameworks do almost all of the heavy lifting for you, especially if your app uses mostly standard components. It's much more a question of empathy than technical difficulty, even when you need to do a little extra work for custom UI elements.</p>
+								<p>At Netflix, we care a lot about accessibility both from a content and software point of view. Investments in ensuring high-quality accessibility yield multiple benefits from making automated testing possible to ensuring customer happiness. I'll share several code-level examples covering simple cases to some of the most challenging, including interoperation between VoiceOver and Voice Control.</p></div>
 						</div>
 					</ul>
 				</div>
@@ -246,16 +277,30 @@
 							<div class="mi-timeline-info"><strong>📢 11:00</strong></div>
 							<div class="mi-timeline-marker"><strong>Practical machine learning for iOS apps</strong></div>
 							<div class="mi-timeline-para">Paris Buttfield-Addison</div>
+							<hr/>
+							<div>Machine learning is incredibly popular right now, but is it actually useful when you're building  iOS apps? How does it work anyway? Isn't there lots of unpleasant mathematics involved? Let's find out, together. In this session, Paris will explore what's possible with machine learning on iOS, using Apple's CreateML and CoreML technologies.
+
+								What can be done with machine learning? You can enhance your iOS apps everywhere from search, to personalisation, to predictively enhancing the user interface, based on what your users have done in the past. Together, we'll explore how you can use CreatML to train useful machine learning models, using a couple of real-world case studies, and we'll see how easy it is to incorporate those models into your iOS apps using CoreML. 
+								
+								Privacy-enhancing on-device machine learning does not require a comprehensive mathematical background: it's friendly, and accessible, and a great way to take your iOS apps into the future with new features, embracing Apple's newest technologies, and to make yourself more employable. 
+								
+								Join me, and learn everything you need to get started with practical, app-based machine learning.</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>📢 11:45</strong></div>
 							<div class="mi-timeline-marker"><strong>Small team. Big Open Source.</strong></div>
 							<div class="mi-timeline-para">Rodrigo Arsuaga</div>
+							<hr/>
+							<div>A question we get asked often is how our small team that develops custom software was able to organize itself to create several popular open source projects.
+								In this talk we will get honest about the principles and key practices that organizations needs to foster in order to build a culture that encourages the creation of new and innovative Open Source material.
+								We will also go through the benefits of building an Open Source culture, how to come up with good ideas, and the initial steps to create an Open Source project.</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>🧵 12:30</strong></div>
 							<div class="mi-timeline-marker">Story Session</div>
 							<div class="mi-timeline-para">Steve Scott</div>
+							<hr/>
+							With guest: Paul Hudson
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>🍝 13:00</strong></div>
@@ -271,6 +316,8 @@
 							<div class="mi-timeline-info"><strong>📢 15:15</strong></div>
 							<div class="mi-timeline-marker"><strong>UI Mode: Pitch Black</strong></div>
 							<div class="mi-timeline-para">Lea Marolt Sonnenschein</div>
+							<hr/>
+							<div>Accessibility has long been at the forefront of Apple's mission statement. Designing for accessibility often leads to solutions that are better for everyone, similar to how solving for edge cases helps you create a stronger codebase. Apple makes it simple to add an additional layer of accessibility to your UI, which works great in small self-contained examples. But have you ever tried to play these interactions out in a complete app flow? Have you tried it blindfolded? In this talk you'll experience what it's like to use an app without a GUI and figure out what you need to navigate it from start to finish.</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>☕️ 15:45</strong></div>
@@ -286,6 +333,10 @@
 							<div class="mi-timeline-info"><strong>📢 17:15</strong></div>
 							<div class="mi-timeline-marker"><strong>Building a Realtime video processor with Swift and Metal</strong></div>
 							<div class="mi-timeline-para">Ben Sandofsky</div>
+							<hr/>
+							<div>
+								This talk covers the low-level details of processing video in realtime. We draw from the experience building the in-house video renderer that powers Halide and Spectre. We’ll cover GPU programming, data oriented design, and affordances of Swift that make it a competitive alternative to C++. Even if you use a higher level framework, you’ll walk away from the talk understanding what the frameworks do under the hood.
+							</div>
 						</div>
 						<div class="mi-timeline-item">
 							<div class="mi-timeline-info"><strong>📢 18:00</strong></div>
